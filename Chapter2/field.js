@@ -15,4 +15,4 @@ const drawField = (height, width) => {
   return board;
 };
 
-console.log(drawField(8, 3));
+console.log(drawField(8, 4));
