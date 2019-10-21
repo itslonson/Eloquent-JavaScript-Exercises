@@ -15,4 +15,4 @@ const drawChessBoard = size => {
   return board;
 };
 
-console.log(drawChessBoard(8));
+console.log(drawChessBoard(5));
