@@ -10,4 +10,4 @@ const makeTriangle = height => {
   return line + "\n";
 };
 
-console.log(makeTriangle(10));
+console.log(makeTriangle(5));
