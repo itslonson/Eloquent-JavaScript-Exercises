@@ -13,14 +13,14 @@
 
 const countBs = string => {
   return string.match(/B/g) == null
-    ? `No B's in the string`
+    ? `No B's in this string`
     : string.match(/B/g).length;
 };
 
 const countChar = (string, char) => {
   let query = new RegExp(char, "g");
   return string.match(query) == null
-    ? `No such char in the string`
+    ? `No such char in this string`
     : string.match(query).length;
 };
 
