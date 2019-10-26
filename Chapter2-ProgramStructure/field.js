@@ -1,3 +1,5 @@
+// Modification of chessboard function that draws field of x & o based on passed height and width params
+
 const drawField = (height, width) => {
   let board = "";
 
